@@ -48,7 +48,8 @@ body{
     position: absolute;
     top: 150px;
     left: 150px;
-    height: 200px;
+    min-height: 200px;
+    max-height: 300px;
     width: 600px;
     transition: 300ms;
     /* display: none; */
