@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    background: #8ED3D1;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    margin-left: 450px;
+}
+
+.tenor-gif-embed{
+    pointer-events: none;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.audio {
+ display: none;
+}
+
+.mask{
+    border: solid;
+    height: 40px;
+    width: 140px;
+    position: absolute;
+    top: 529px;
+    left: 374.8px;
+    font-size: 1rem;
+    font-family: roboto;
+    color: white;
+    background: #F96854;
+    border: none;
+    box-shadow: 0px 1px 10px 1px #2b2e3b;
+}
+
+.textContainer{
+    position: absolute;
+    top: 170px;
+    left: 250px;
+    height: 200px;
+    width: 600px;
+    border: solid;
+    transition: 300ms;
+    display: none;
+}
